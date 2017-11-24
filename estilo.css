@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.col{
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    border: 1px solid purple;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3{
+    width: 33.33%;
+}
+
+.col-4{
+    width: 25%;
+}
+
+.col-5{
+    width: 20%;
+}
+
+.col-6{
+    width: 16.66%;
+}
+.col-7{
+    width: 14.28%;
+}
+
+.col-8{
+    width: 12.5%;
+}
+.col-9{
+    width: 11.11%;
+}
+.col-10{
+    width: 10%;
+}
+.col-11{
+    width: 9.09%;
+}
+.col-12{
+   width: 8.33%;
+}
+
+@media screen and (min-width: 992px){
+
+    .col-3{
+        width: 33.33%;
+    }
+    .col-4{
+        width: 25%;
+    }
+    
+}
