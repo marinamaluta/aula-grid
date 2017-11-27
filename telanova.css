@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box
+padding: 0;
+margin: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5%;
+    
+}
+
+.menu-links__linha{
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.conteudo-principal__msg{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+.conteudo-principal__msg--titulo{
+    text-transform: uppercase;
+    color: blue;
+}
